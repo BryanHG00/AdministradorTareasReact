@@ -4,10 +4,13 @@
     text-align: center;
     margin: 0;
 }
+*{
+    font-family: Century Gothic;
+}
 
 html{
     background-color: rgb(39, 39, 39);
-    font-family: "century gothic";
+    
 }
 
 form{
