@@ -1,0 +1,145 @@
+.tituloPrincipal{
+    color: #fcf7c5;
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+}
+
+html{
+    background-color: rgb(39, 39, 39);
+    font-family: "century gothic";
+}
+
+form{
+    margin: 3rem;
+}
+
+form, form div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+form div label{
+    color: #fcf7c5;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+form div input{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 480px;
+    background-color: #0ebbb8;
+    color:#fcf7c5;
+}
+
+form button{
+    padding-inline: 1rem;
+    padding-block: 0.25rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #0ebbb865;
+    color: #fcf7c5;
+    border: 1px solid white;
+}
+
+form button:hover{
+    cursor: pointer;
+    background-color: #0ebbb8;
+}
+
+.title{
+    text-align: center;
+    color: #fcf7c5;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#0ebbb8;
+    width: fit-content;
+    margin: 0 auto;
+    padding-block: 1rem;
+    padding-inline: 2rem;
+    border-radius: 0.25rem;
+    row-gap: 1rem;
+    color:#fcf7c5;
+    margin-bottom: 2rem;
+}
+
+li{
+    list-style: none;
+    font-size: 1.5rem;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnDelete{
+    background-color:transparent;
+    color: red;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    border-radius: 0.4rem;
+    border: 1px solid red;
+    padding-inline: 0.5rem;
+}
+
+.btnDelete:hover{
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+    color: white;
+}
+
+.chbx{
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+}
+
+.chbx:hover{
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+.chbla:hover{
+    cursor: pointer;
+}
+
+.errorMsg{
+    color: red;
+    background-color: rgb(250, 144, 144);
+    padding-inline: 1rem;
+    margin: 0;
+}
+
+@media (max-width: 480px){
+    .tituloPrincipal{
+        font-size: 3rem;
+    }
+
+    form div input{
+        width: 350px;
+        font-size: 1.25rem;
+    }
+
+    ul{
+        display: flex;
+        width: 90%;
+        font-size: 1rem;
+        padding-inline: 1rem;
+    }
+
+    li{
+        font-size: 1rem;
+        width: 300px;
+        display: flex;
+        align-items: center;
+    }
+}
